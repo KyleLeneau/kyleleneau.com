@@ -1,0 +1,38 @@
+#
+# Blog Settings
+#
+author: Kyle LeNeau
+description: A site made of bytes
+url: http://kyleleneau.com
+title: 
+subtitle: 
+gravatar_url: 
+subscribe_rss: 
+
+# Github repositories
+github_user: KyleLeneau
+github_repo_url: https://github.com/KyleLeneau/kyleleneau.com/
+
+# Twitter
+twitter_user: kleneau
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: kleneau
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: 
+
+
+#
+# Jekyll Settings
+#
+markdown: redcarpet
+pygments: true
+permalink: /archive/:year/:month/:day/:title/
+rdiscount:
+  extensions: [smart]
+paginate: 5
+paginate_path: "page/:num"
+category_dir: categories
