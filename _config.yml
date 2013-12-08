@@ -3,8 +3,8 @@
 #
 author: Kyle LeNeau
 description: A site made of bytes
-url: http://kyleleneau.com
-baseurl: http://kyleleneau.github.io/kyleleneau.com
+# url: http://kyleleneau.com
+baseurl: 
 title: 
 subtitle: 
 gravatar_url: 
