@@ -3,11 +3,11 @@
 #
 author: Kyle LeNeau
 description: A site made of bytes
-# url: http://kyleleneau.com
+url: http://kyleleneau.com
 baseurl: 
-title: 
-subtitle: 
-gravatar_url: 
+title: Kyle LeNeau
+subtitle: A site made of bytes
+gravatar_url: http://www.gravatar.com/avatar/f86ee0129fd77b9a468f0aedb00cc4dd.png
 subscribe_rss: 
 
 # Github repositories
@@ -23,7 +23,7 @@ disqus_short_name: kleneau
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id: 
+google_analytics_tracking_id: UA-4755411-11
 
 
 #
@@ -37,3 +37,7 @@ rdiscount:
 paginate: 5
 paginate_path: "page/:num"
 category_dir: categories
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
