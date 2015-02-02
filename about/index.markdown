@@ -12,7 +12,7 @@ sharing: false
 
 ## What I do
 
-I work at [GitHub](http://smartthings.com/) doing whatever I can to make it even more awesome.
+I work at [SmartThings](http://smartthings.com/) doing whatever I can to make it even more awesome.
 
 ## Why I do it
 
