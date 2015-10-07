@@ -30,7 +30,7 @@ google_analytics_tracking_id: UA-4755411-11
 # Jekyll Settings
 #
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /archive/:year/:month/:day/:title/
 rdiscount:
   extensions: [smart]
