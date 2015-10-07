@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Hire Me"
 comments: false
 sharing: true

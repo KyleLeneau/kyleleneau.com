@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "jMonthCalendar"
 date: 2009-01-08 09:37
 comments: false

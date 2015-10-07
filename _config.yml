@@ -1,42 +1,37 @@
-#
-# Blog Settings
-#
-author: Kyle LeNeau
-description: A site made of bytes
-url: http://kyleleneau.com
-baseurl: 
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+
+# Setup
 title: Kyle LeNeau
-subtitle: A site made of bytes
-gravatar_url: http://www.gravatar.com/avatar/f86ee0129fd77b9a468f0aedb00cc4dd.png
-subscribe_rss: 
+tagline: A site made of bytes
+description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url: http://kyleleneau.com
+baseurl: /
 
-# Github repositories
-github_user: KyleLeneau
-github_repo_url: https://github.com/KyleLeneau/kyleleneau.com/
+author:
+  name: 'Kyle LeNeau'
+  url: https://twitter.com/kleneau
 
-# Twitter
-twitter_user: kleneau
-twitter_tweet_button: true
+paginate: 5
 
-# Disqus Comments
-disqus_short_name: kleneau
-disqus_show_comment_count: true
+# Custom vars
+version: 1.0.0
+
+github:
+  repo: https://github.com/kyleleneau/kyleleneau.com
 
 # Google Analytics
 google_analytics_tracking_id: UA-4755411-11
 
-
-#
-# Jekyll Settings
-#
-markdown: redcarpet
-highlighter: pygments
-permalink: /archive/:year/:month/:day/:title/
-rdiscount:
-  extensions: [smart]
-paginate: 5
-paginate_path: "page/:num"
-category_dir: categories
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
 
 gems:
   - jekyll-redirect-from

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "What I've worked on"
 comments: false
 sharing: true
